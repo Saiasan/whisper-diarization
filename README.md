@@ -73,6 +73,10 @@ winget install ffmpeg
 ```
 pip install -c constraints.txt -r requirements.txt
 ```
+## Cuda 12.8
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+```
 ## Usage 
 
 ```
